@@ -1,4 +1,4 @@
-# 002 - Python If-Else
+# Python If-Else
 ## Problem
 
 Given an integer, `n`, perform the following conditional actions:
@@ -37,27 +37,6 @@ if __name__ == '__main__':
 ```
 
 ## Solution 1
-
-```python
-def weirdo(num):
-    if num % 2 != 0:
-        return "Weird"
-    else:
-        if 2 <= num <= 5:
-            return "Not Weird"
-        elif 6 <= num <= 20:
-            return "Weird"
-        elif num > 20:
-            return "Not Weird"
-
-
-if __name__ == '__main__':
-    n = int(input().strip())            
-```
-
-
-
-## Solution 2
 
 ```python
 def odd(num):
