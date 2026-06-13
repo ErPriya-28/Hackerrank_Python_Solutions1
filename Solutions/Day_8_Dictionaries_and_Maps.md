@@ -116,22 +116,21 @@ for ask in range(n):
 
 ## Solution 4
 
-```python
-n = input("")
-n = int(n)
-friends = dict()
+```
+n = int(input())
+dictt = {}
 
-for inp in range(n):
-    friend = input("")
-    inp = friend.split()
-    name = inp[0]
-    phone = inp[1]
-    friends[name] = phone
+for i in range(n):
+    text = input().split()
+    dictt[text[0]] = text[1]
 
-for ask in range(n):
-    query = input("")
-    if query in friends.keys():
-        print(query + "=" + friends[query])
-    else :
-        print("Not found")
+while True:
+    try:
+        inpt = input()
+        if inpt in dictt:
+            print(inpt+"="+dictt[inpt])
+        else:
+            print("Not found")
+    except EOFError:
+        break
 ```
