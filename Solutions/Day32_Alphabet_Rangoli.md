@@ -1,4 +1,4 @@
-# 023 - Alphabet Rangoli
+# Alphabet Rangoli
 
 ## Problem
 
@@ -112,7 +112,7 @@ if __name__ == '__main__':
 ```
 
 
-## Solution
+## Solution 1
 
 ```python
 def print_rangoli(size):
@@ -129,6 +129,35 @@ def print_rangoli(size):
     print("\n".join(design + design[::-1][1:]))
 
 if __name__ == '__main__':
+    n = int(input())
+    print_rangoli(n)
+```
+
+## Solution 2
+
+```python
+def print_rangoli(size):
+    
+    alphbets = "abcdefghijklmnopqrstuvwxyz"
+    
+    total_size = ((4*size)-3)
+    for i in range(1, size+1):
+        
+        alpha_string = ""
+        for j in range(i):
+            letter = alphbets[size-i+j]
+            alpha_string = alpha_string.center((2*j+1), letter)
+        alpha_string_hiphen = "-".join(alpha_string)
+        print(alpha_string_hiphen.center(total_size, "-"))                 
+    for i in range(size-1, 0, -1):        
+        alpha_string = ""
+        for j in range(i):                
+            letter = alphbets[size-i+j]
+            alpha_string = alpha_string.center((2*j+1), letter)
+        alpha_string_hiphen = "-".join(alpha_string)
+        print(alpha_string_hiphen.center(total_size, "-"))          
+
+        if __name__ == '__main__':
     n = int(input())
     print_rangoli(n)
 ```
