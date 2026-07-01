@@ -1,4 +1,4 @@
-# 017 - Mutations
+# Mutations
 ## Problem
 
 We have seen that lists are mutable (they can be changed), and tuples are immutable (they cannot be changed).
