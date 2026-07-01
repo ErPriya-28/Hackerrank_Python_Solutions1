@@ -1,4 +1,4 @@
-# 007 - Print Function
+# Print Function
 ## Task
 Read an integer `N` .
 
@@ -75,13 +75,4 @@ if __name__ == '__main__':
     print(lst)
 ```
 
-## Solution 5
 
-```python
-if __name__ == '__main__':
-    n = int(input())
-    lst = []
-    for num in range(1, n+1):
-      lst.append(str(num))
-    print("".join(lst))
-```
