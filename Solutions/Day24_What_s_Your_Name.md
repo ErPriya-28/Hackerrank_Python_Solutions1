@@ -1,4 +1,4 @@
-# 016 - What's Your Name?
+# What's Your Name?
 ## Problem
 
 
