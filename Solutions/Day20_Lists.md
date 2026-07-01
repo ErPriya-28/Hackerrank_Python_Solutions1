@@ -1,4 +1,4 @@
-# 012 - Lists
+# Lists
 ## Problem
 
 Consider a list (`list = []`). You can perform the following commands:
