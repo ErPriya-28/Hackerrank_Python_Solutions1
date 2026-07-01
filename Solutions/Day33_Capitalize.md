@@ -1,4 +1,4 @@
-# 024 - Capitalize
+# Capitalize
 
 ## Problem
 
