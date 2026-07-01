@@ -1,4 +1,4 @@
-# 027 - Merge the Tools!
+# Merge the Tools!
 
 
 ## Problem
