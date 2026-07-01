@@ -1,4 +1,4 @@
-#String Formatting
+# String Formatting
 
 ## Problem
 
