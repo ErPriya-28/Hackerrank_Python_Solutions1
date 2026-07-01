@@ -1,4 +1,4 @@
-# 025 - The Minion Game
+# The Minion Game
 
 ## Problem
 
