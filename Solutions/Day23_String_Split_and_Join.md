@@ -1,4 +1,4 @@
-# 015 - String Split and Join
+# String Split and Join
 ## Problem
 
 In Python, a string can be split on a delimiter.
