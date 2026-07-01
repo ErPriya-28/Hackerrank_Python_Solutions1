@@ -1,4 +1,4 @@
-# 020 - Text Alignment
+# Text Alignment
 
 ## Problem
 
