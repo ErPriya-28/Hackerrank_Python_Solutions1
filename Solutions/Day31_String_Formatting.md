@@ -1,4 +1,4 @@
-# 022 - String Formatting
+#String Formatting
 
 ## Problem
 
