@@ -1,4 +1,4 @@
-# 021 - Text Wrap
+# Text Wrap
 
 ## Task
 
